@@ -1,7 +1,12 @@
-import "./App.css";
 
+import './App.css'
+import ProductApp from './components/ProductApp'
+import products from './data/products'
 function App() {
-  return <>{/* Add your code here! */}</>;
+  return (
+    <ProductApp data={products} />
+    //<ProductCard />
+  )
 }
 
-export default App;
+export default App
